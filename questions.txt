@@ -1,0 +1,13 @@
+﻿1. What is the general trend in the curve?
+
+The accuracy appears to increase with an increase in the size of the training data. The curve appears to follow a logistic growth curve, line, and square root function.
+
+2.Are there parts of the curve that appear to be noisier than others? Why?
+The points of low percentage of training data appear to be more noisier than the others. As the amount of training data used in the model increases the accuracy generally changes at a lower rate. As a result, there is less smoothness and more noise in the low accuracy areas of the curve.
+
+3.How many trials do you need to get a smooth curve?
+About 150 trials produced a smooth curve.
+
+4. Try different values of C (	by changing LogisticRegression(C=10**-10) ). What happens?
+
+By reducing the value of C, the curve produced curves more outwards. By increasing the value of C, the curve becomes more randomized and eventually doesn’t even resemble a curve.	e
